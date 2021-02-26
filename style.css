@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: aliceblue;
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	color: rgb(2, 0, 17);
+}
+
+.overlay {
+	background: rgb(0, 16, 46);
+	color: #fff;
+	display: grid;
+	place-items: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.overlay-text {
+	font-size: 3rem;
+}
+
+.overlay-text .ol {
+	position: relative;
+}
+
+nav {
+	height: 10vh;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	overflow: hidden;
+}
+
+nav ul {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.convince {
+	text-align: center;
+	margin-top: 230px;
+}
